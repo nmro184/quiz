@@ -32,7 +32,6 @@ function figureClassName(){
 
         <div>
             <button onClick ={props.selectAnswer} className = {figureClassName()}> {props.value} </button>
-            {props.isCorrect && <h5> correcto! </h5>}
 </div>
     )
 
